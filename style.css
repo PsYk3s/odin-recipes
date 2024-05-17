@@ -48,3 +48,37 @@ li {
     display: flex;
     align-items: flex-start;
 }
+
+a.button {
+    padding: 5px 10px;
+    background: #29a4ff;
+    border-radius: 3px;
+    margin-right: 4px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background: #057ad1;
+    transition-duration: 0.2s;
+}
+
+h1:after {
+    content: "_";
+    color: #40c0d3;
+}
+
+span.foot {
+    color: #a3a3a3;
+    font-size: smaller;
+}
+
+.recipe-list {
+    margin-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 7px;
+    color: #474747;
+}
